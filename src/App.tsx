@@ -34,7 +34,8 @@ function App() {
       headers: {
         "Content-Type": "application/json;charset=UTF-8",
         "X-Api-Version": "2",
-        "X-Resource-Token": "9F86E9635B5B64938792BB571868CEE270D34577D0FBBB47AF7EA16A64F01A4A"
+        "X-Resource-Token": "9F86E9635B5B64938792BB571868CEE270D34577D0FBBB47AF7EA16A64F01A4A",
+        "Access-Control-Allow-Origin": "*"
       }
     })
 
